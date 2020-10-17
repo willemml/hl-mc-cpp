@@ -3,4 +3,4 @@ project(hl_mc_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hl_mc_cpp main.cpp CLI.cpp CLI.h Command.cpp Command.h)
+add_executable(hl_mc_cpp src/main.cpp src/CLI.cpp src/CLI.h src/Command.cpp src/Command.h)

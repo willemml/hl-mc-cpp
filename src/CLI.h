@@ -13,11 +13,11 @@
 class CLI {
 private:
     std::list<Command> commands;
-    void prompt();
+    static void prompt();
 public:
     void loop();
     void setup();
-    void run(std::string name);
+    void run(const std::string& name, const std::list<std::string>& args);
 };
 
 
