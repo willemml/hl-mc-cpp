@@ -18,6 +18,7 @@ public:
     void loop();
     void setup();
     void run(const std::string& name, const std::list<std::string>& args);
+    static std::list<std::string> split_string(std::string string);
 };
 
 
